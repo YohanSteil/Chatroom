@@ -1,0 +1,38 @@
+li.message {
+  max-width: 80%;
+  align-self: end;
+  animation: appearFromLeft 1s 1 both;
+
+  &.left-side {
+    align-self: start;
+
+    & > p.content {
+      border-radius: 5px 5px 5px 1px;
+    }
+  }
+
+  & > h4.author {
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  & > p.content {
+    color: #fafafa;
+    background: dodgerblue;
+    padding: 5px 10px;
+    border-radius: 5px 5px 1px 5px;
+    transition: 0.2s;
+  }
+}
+
+@keyframes appearFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
