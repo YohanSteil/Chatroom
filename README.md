@@ -12,8 +12,9 @@ https://github.com/YohanSteil/Chatroom/assets/17311454/ae04ae81-10e4-41ec-a6bc-2
 
 In the project directory, you can run:
 
-### `npm start`
+### `node server.js` :
+Pour démarrer le serveur 
 
-Runs the app in the development mode.\
+### `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
